@@ -1,0 +1,70 @@
+#first{
+    color: goldenrod;
+    text-align: center;
+}
+.second{
+    border: 5px solid;
+    border-color: crimson;
+    color: darkmagenta;
+    height: 250px;
+    width: 30%;
+    padding-top: 22px;
+    background-color: rgb(211, 223, 213);
+    box-shadow: 4px 5px 5px 5px rgb(160, 9, 42);
+    border-radius: 10px;
+}
+#third{
+    color: crimson;
+}
+#fourth{
+    color: goldenrod;
+}
+.fifth{
+    color: indianred;
+}
+#sixth{
+    color: goldenrod;
+}
+.seventh{
+    color: coral;
+}
+.eighth{
+    color: rgb(173, 108, 9);
+}
+#ninth{
+    color: goldenrod;
+}
+#tenth{
+    height: 300px;
+}
+#elaven{
+    color: goldenrod;
+}
+.twelve{
+    color: green;
+}
+#thirteen{
+    color: goldenrod;
+}
+.fourteen{
+    border: 5px solid;
+    border-color: chocolate;
+    padding-top: 26px;
+    background-color: blanchedalmond;
+    color: rgb(70, 22, 28);
+    background-image: url(group.jpg);
+    height: 200px;
+}
+#fifteen{
+    color: goldenrod;
+}
+.sixteen{
+    border: 5px solid;
+    color: cadetblue;
+    background-color: beige;
+    height: 300px;
+    width: 30%;
+    padding-top: 45px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px 5px rgb(3, 107, 121);
+}
