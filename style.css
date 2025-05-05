@@ -3,17 +3,17 @@
 }
 .second{
     border: 5px solid;
-    border-color: crimson;
-    color: darkmagenta;
+    border-color: rgb(5, 44, 1);
+    color: rgb(15, 88, 54);
     height: 250px;
     width: 30%;
-    padding-top: 22px;
-    background-color: rgb(211, 223, 213);
-    box-shadow: 4px 5px 5px 5px rgb(160, 9, 42);
+    padding-top: 10px;
+    background-color: rgb(207, 221, 226);
+    box-shadow: 3px 4px 4px 4px rgb(22, 24, 23);
     border-radius: 10px;
 }
 #third{
-    color: crimson;
+    color: rgb(14, 100, 57);
 }
 #fourth{
     color: goldenrod;
@@ -63,7 +63,7 @@
     background-color: beige;
     height: 300px;
     width: 30%;
-    padding-top: 45px;
+    padding-top: 25px;
     border-radius: 10px;
     box-shadow: 4px 5px 5px 5px rgb(3, 107, 121);
 }
@@ -84,6 +84,9 @@ footer > p > a{
 }
 footer > p > small{
     color: rgb(9, 235, 9);
+}
+#kala{
+    margin-top: 10px;
 }
 
 

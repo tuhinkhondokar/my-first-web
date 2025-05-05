@@ -6,6 +6,12 @@
     <title>My first repository.</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="3829383.png" type="image/x-icon">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1 id="first">welcome to my website</h1><br><br>
@@ -57,25 +63,27 @@
     <input type="address" placeholder="present address"><br><br>
     <input type="number" placeholder="parents phone number"><br><br>
     <input type="number" placeholder="your phone number"><br><br>
-    <select name="" id="" class="twelve"><option value="male">male</option>
+    <select name="" id="" class="twelve">
+    <option value="male">male</option>
     <option value="female">female</option>
     <option value="transgender">transgender</option></select><br><br>
     <button style="color: darkorange;">submit</button>
     <div>
         <h3 id="thirteen">What is web development:-</h3>
-        <p class="fourteen">Web development is the process of creating websites and web applications, encompassing everything from designing the layout to coding the functionality. It involves using various programming languages and tools to bring a website or web application to life, and can also include tasks like content creation and project management. Web development is broadly divided into front-end (client-side) and back-end (server-side) development.</p>
+        <p class="fourteen">Web development is the process of creating websites and web applications, encompassing everything from designing the layout to coding the functionality. It involves using various programming languages and tools to bring a website or web application to life, and can also include tasks like content creation and project management. Web development is broadly divided into front-end (client-side) and back-end (server-side) development.</p></div>
+        <div class="sixteen">
         <h4 id="fifteen">What you have to learn for a web developer?</h4>
-        <p class="sixteen">To become a web developer, you'll need to learn HTML, CSS, and JavaScript, which are the foundation of web development. Additionally, understanding version control (like Git) and having a basic understanding of SEO principles are crucial. For backend development, you may want to learn a server-side language like Python or Java.</p>      
+        <p>To become a web developer, you'll need to learn HTML, CSS, and JavaScript, which are the foundation of web development. Additionally, understanding version control (like Git) and having a basic understanding of SEO principles are crucial. For backend development, you may want to learn a server-side language like Python or Java.</p>      
     </div>
     <header>
         <nav>
             <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a href="car.html">Car</a></li>
-            <li><a href="bike.html">Bike</a></li>
-            <li><a href="watch.hml">Watch</a></li>
-            <li><a href="shoes.html">Shoes</a></li>
-            <li><a href="phone.html">I-phone</a></li>
+            <li><a href="car.html">Gmail</a></li>
+            <li><a href="bike.html">Contact</a></li>
+            <li><a href="watch.hml">Transport</a></li>
+            <li><a href="shoes.html">About</a></li>
+            <li><a href="phone.html">Helpline</a></li>
             </ul>
         </nav>
     </header>
@@ -122,6 +130,49 @@
             </footer>
         </article>
     </main>
+    <section>
+        <form>
+            <label for="name"><b>Your Name:</b>
+                <input type="text" placeholder="your name" id="name">
+            </label>
+            <label for="email"><b>Your Email:</b>
+                <input type="text" placeholder="email address" id="email">
+            </label>
+            <label for="number"><b>Your Phone Number:</b>
+                <input type="text" placeholder="phone number" id="number">
+            </label>
+            <fieldset>
+                <legend style="color: rgb(11, 235, 11);">Choose Your Favourite Color</legend>
+                <label for="black">
+                    <input type="radio" name="color" id="black">Black
+                </label>
+                <label for="white">
+                    <input type="radio" name="color" id="white">White
+                </label>
+                <label for="green">
+                    <input type="radio" name="color" id="green">Green
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend style="color: rgb(9, 230, 9);">Choose Your Favourite Game</legend>
+                <label for="football">
+                    <input type="checkbox" name="game" id="football">Football
+                </label>
+                <label for="cricket">
+                    <input type="checkbox" name="game" id="cricket">Cricket
+                </label>
+                <label for="badminton">
+                    <input type="checkbox" name="game" id="badminton">Badminton
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend style="color: rgb(11, 238, 11);">Share Your Opinion</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input id="kala" type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
     <footer>
             <p>
             <small> &copy; 2025, All Rights Are Reserved.</small>
